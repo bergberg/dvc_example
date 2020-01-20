@@ -1,0 +1,12 @@
+md5: e087e8faa24b729b9ee42d0e9ddf193f
+wdir: ..
+locked: true
+deps:
+- etag: '"df69cf169787680e41603cfd5cec2264-2"'
+  path: http://www.creditriskanalytics.net/uploads/1/9/5/1/19511601/mortgage_csv.rar
+outs:
+- md5: ee175b4ab3f8d4c54925eec78c681c09
+  path: mortgage_csv.rar
+  cache: true
+  metric: false
+  persist: false
