@@ -1,0 +1,13 @@
+md5: 2db587a566830de2f12ebe09fde51ab7
+cmd: python src/data_reformat.py data/mortgage_csv.rar data/intermediate
+deps:
+- md5: cc34bf9fecb039c276beebaba8924542
+  path: src/data_reformat.py
+- md5: ee175b4ab3f8d4c54925eec78c681c09
+  path: data/mortgage_csv.rar
+outs:
+- md5: e015d47cfb16ffd37c7eb8a2567e0807.dir
+  path: data/intermediate
+  cache: true
+  metric: false
+  persist: false
